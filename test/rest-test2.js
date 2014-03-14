@@ -26,6 +26,10 @@ describe('bonjour', function () {
     });
   });
 
+  after (function(done) {
+    done();
+  });
+
   it('should exist', function (done) {
     should.exist(app);
     done();
